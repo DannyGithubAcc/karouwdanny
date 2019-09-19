@@ -14,5 +14,4 @@ export class CustomMaterialModule {
     constructor() {
         console.log(this.thin);
     }
-
 }

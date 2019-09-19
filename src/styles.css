@@ -1,3 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+body{
+    font-family: 'Squada One', cursive;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  grid-template-areas:
+  "item1 item1 item1"
+  "item2 item2 item2"
+  "item3 item3 item3"
+  "item4 item4 item4"
+}
+
+.test{
+  font-family: 'Squada One', cursive;
+  font-size: 3em;
+}
+
+.headerarea{
+  grid-area: item1;
+  background-color: aquamarine;
+  justify-content: center;
+}
+
+.contentarea{
+  grid-area: item2;
+  background-color: beige;
+}
+
+.advertarea{
+  grid-area: item3;
+  background-color: blue;
+}
+
+.footer{
+  grid-area: item4;
+  background-color: brown;
+}
+
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 5 5 auto;
+}
